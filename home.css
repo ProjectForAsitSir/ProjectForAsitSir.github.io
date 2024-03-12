@@ -141,7 +141,9 @@ span{
   flex-direction: column;
 }
 @media (max-width: 800px) {
-
+.container{
+  height:100vh;
+  }
 #img{
   width: 100%;
 }
