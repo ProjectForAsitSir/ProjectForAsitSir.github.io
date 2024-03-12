@@ -142,7 +142,7 @@ span{
 }
 @media (max-width: 800px) {
 .container{
-  height:100vh;
+  height:100vh !important;
   }
 #img{
   width: 100%;
