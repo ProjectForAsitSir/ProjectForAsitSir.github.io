@@ -31,9 +31,6 @@ body{
   display: flex;
   justify-content:space-around;
 }
-html{
-  overflow: hidden;
-}
 input,textarea{
   font-size: 105%;
   margin: 1rem;
