@@ -74,6 +74,7 @@ textarea{
     height: 200px!important;
   }
   .btn2{
+    border-radius:5px;
     font-size: 1px;
     padding: 6px;
   }
