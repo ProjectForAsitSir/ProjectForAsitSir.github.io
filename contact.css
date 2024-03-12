@@ -25,7 +25,6 @@ body{
   justify-content: center;
   align-items: center;
   background: black;
-  height: 100vh;
 }
 .form-inner{
   display: flex;
