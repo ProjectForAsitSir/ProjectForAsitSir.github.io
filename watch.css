@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	text-decoration: none;
+}
+body{
+	overflow: hidden;
+}
+.watch{
+	position: relative;
+	column-gap: 5rem;
+	overflow: hidden;
+	padding: 4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+	background: url(back3.jpg) no-repeat;
+	background-size: cover;
+}
+.image{
+	height:90vh;
+	flex-basis: 30%;
+}
+img{
+	height: 100%;
+	width: 100%;
+}
+.info{
+	text-align: center;
+	flex-basis: 50%;
+}
+.info h1{
+	font-size: 3rem;
+}
+.info p{
+	font-size: 1.2rem;
+	margin: 2rem 0;
+}
+button{
+	padding: 0.7rem;
+	border:none;
+	outline: none;
+	border-radius: 1rem; 
+	font-size: 1rem;
+	background: darkcyan;
+}
+button:hover{
+	background: #008b8bb8;
+	border-radius: 1.2rem;
+}
+.cancel{
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+.cancel .fa-close{
+  font-size: 20px;
+  color: red !important;
+}
