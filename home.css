@@ -141,6 +141,10 @@ span{
   flex-direction: column;
 }
 @media (max-width: 800px) {
+  .footer{
+    position:relative;
+    bottom:0;
+  }
 html{
 background:#202125!important;
   }
